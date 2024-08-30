@@ -55,6 +55,7 @@ async function handleDownload(request) {
         message: verifyResult
       }),
       {
+        status: 401,
         headers: {
           "content-type": "application/json;charset=UTF-8"
         }
